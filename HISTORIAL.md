@@ -58,3 +58,15 @@
   No se hizo commit ni push.
 - **Falta:** Confirmar si se quiere el correo exactamente como se escribió en
   el pedido (sin `@`), en cuyo caso se corrige el documento.
+
+## 2026-11-26 — Subir los cambios al repositorio
+
+- **Pedimos:** «subí los cambios al repositorio». Según `AGENTS.md`, eso implica
+  commit con mensaje que explique el cambio y luego push.
+- **Hicimos:** Revisé `git status` (4 archivos nuevos: `AGENTS.md`,
+  `HISTORIAL.md`, `crear_datos_word.py`, `mis_datos.docx`), hice
+  `git add` + `git commit -m 'Agrega reglas de Git, documento con datos
+  personales e historial de tareas'` (commit `e815e56`) y
+  `git push origin main`: `af244d7..e815e56  main -> main`. Después agregué
+  esta entrada al historial y la subí en un commit de registro.
+- **Falta:** Nada.
