@@ -12,6 +12,9 @@ DATOS = [
     ("DNI", "43331509"),
     ("Correo electrónico", "esamueldasilva9@gmail.com"),
     ("Usuario", "samueldasilva9927"),
+    ("Carrera", "contador publico"),
+    ("Domicilio", "alpatauca 1810"),
+    ("Provincia", "catamarca"),
 ]
 
 doc = Document()

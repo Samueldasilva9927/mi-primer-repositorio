@@ -70,3 +70,22 @@
   `git push origin main`: `af244d7..e815e56  main -> main`. Después agregué
   esta entrada al historial y la subí en un commit de registro.
 - **Falta:** Nada.
+
+## 2026-11-26 — Ampliar el Word con carrera, domicilio y provincia
+
+- **Pedimos:** Agregar al Word los datos carrera `contador publico`, domicilio
+  `alpatauca 1810` y provincia `catamarca`.
+- **Hicimos:** Actualicé la lista `DATOS` en `crear_datos_word.py` y regeneré
+  `mis_datos.docx`, que ahora tiene 7 filas. Verifiqué por relectura que las
+  7 celdas muestren los valores pedidos, respetando la escritura literal del
+  usuario (sin tildes ni mayúsculas corregidas). No se hizo commit ni push.
+- **Falta:** Nada.
+
+## 2026-11-26 — Actualizar el repositorio con los cambios del Word
+
+- **Pedimos:** «actualiza el repositorio»: bajar posibles cambios remotos y
+  subir los cambios locales pendientes del documento.
+- **Hicimos:** `git pull origin main` indicó «Already up to date». Commiteé
+  `crear_datos_word.py`, `mis_datos.docx` y este historial con un mensaje que
+  describe el cambio, y luego hice push a `origin/main`.
+- **Falta:** Nada.
